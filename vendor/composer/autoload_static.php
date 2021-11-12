@@ -4,17 +4,17 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit201b821038be2488b77e455624620ac6
+class ComposerStaticInitb9a000520deba279d804e18264177384
 {
     public static $prefixLengthsPsr4 = array (
         'E' => 
         array (
-            'Estep\\HelloComposer\\' => 20,
+            'Estep\\EstpAddon\\' => 16,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Estep\\HelloComposer\\' => 
+        'Estep\\EstpAddon\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -27,9 +27,9 @@ class ComposerStaticInit201b821038be2488b77e455624620ac6
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit201b821038be2488b77e455624620ac6::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit201b821038be2488b77e455624620ac6::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit201b821038be2488b77e455624620ac6::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitb9a000520deba279d804e18264177384::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitb9a000520deba279d804e18264177384::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitb9a000520deba279d804e18264177384::$classMap;
 
         }, null, ClassLoader::class);
     }

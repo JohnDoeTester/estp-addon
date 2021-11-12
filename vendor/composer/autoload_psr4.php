@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Estep\\HelloComposer\\' => array($baseDir . '/src'),
+    'Estep\\EstpAddon\\' => array($baseDir . '/src'),
 );

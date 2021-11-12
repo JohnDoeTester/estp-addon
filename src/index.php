@@ -1,7 +1,7 @@
 <?php 
 
 
-namespace vitalis\HelloWorld;
+namespace esteplogic\HelloWorld;
 
 class Index
 {
