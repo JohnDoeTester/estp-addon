@@ -1,5 +1,5 @@
 {
-    "name": "esteplogic/hello-composer",
+    "name": "esteplogic/estp-addon",
     "description": "A simple hello world composer package",
     "type": "library",
     "license": "MIT",
@@ -13,5 +13,6 @@
     "autoload": {
         "psr-4": {"esteplogic\\HelloWorld\\": "src/"}
     },
-    "require": {}
+    "require": {},
+    "composer-runtime-api": "^2.0"
 } 
